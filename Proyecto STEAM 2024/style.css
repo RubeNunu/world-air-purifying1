@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #EFF3F4;
+    padding: 130px 0 0 0;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.logo{
+    height: 95px;
+    margin-left: 20px;
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a{
+    font-size: 21px;
+    padding: 20px;
+    color: #111419;
+    display: block;
+}
+.menu .navbar ul li a:hover{
+    color:  solid;
+    background-color: #13b960;
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+#welcome{
+    padding: 18px;
+    margin-top: 40px;
+    display: flex;
+}
+.content-1 h1{
+    font-size: 50px;
+}
+#welcome span{
+    color: #13b960;
+}
+.content-1 img{
+    height: 25px;
+    margin-left: 62px;
+    width: 250px;
+}
+.content-1 h3{
+    margin-left: 70px;
+    font-size: 25px;
+}
+.content-1 h2{
+    font-size: 30px;
+    padding: 18px;
+}
+.content-1 h2 span{
+    color: #107cf2;
+}
+.content-1 p{
+    margin-left: 30px;
+    font-size: 19px;
+}
+.content-1 p b span{
+    color: #13b960;
+}
+.lungs{
+    height: 350px;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+#mision-vison{
+    padding: 18px;
+    display: flex;
+    margin-top: 40px;
+}
+.mision{
+    margin-left: 5px;
+    width: 1500px;
+    margin-right: 10px;
+}
+.mision h3{
+    background-color: #13b960;
+    border-radius: 30px;
+   margin-left: 10px;
+   width: 170px;
+   padding: 0px 24px;
+   font-size: 35px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.mision p{
+    font-size: 19px;
+    text-align: justify;
+}
+.vision{
+    margin-left: 50px;
+    width: 1600px;
+}
+.vision h3{
+    background-color: #107cf2;
+    border-radius: 30px;
+    margin-left: 10px;
+    width: 160px;
+    padding: 0px 24px;
+    font-size: 35px;
+     height: 50px;
+     margin-bottom: 10px;
+}
+.vision p{
+    font-size: 19px;
+    text-align: justify;
+}
+.content-2{
+    margin-right: 50px;
+}
+.content-2 h1{
+    font-size: 50px;
+} 
+.content-2 img{
+    height: 25px;
+    margin-left: 58px;
+    width: 185px;
+}
+.content-2 h3{
+    margin-left: 70px;
+    font-size: 25px;
+}
+.content-2 p{
+    margin-left: 30px;
+    font-size: 19px;
+}
+.content-2 span{
+    color: #13b960;
+}
+.inv{
+    height: 460px;
+    margin-top: 250px;
+    margin-left: 10px;
+}
+.general{
+    padding: 18px;
+}
+.general h2{
+    font-size: 30px;
+    color: #107cf2;
+}
+.general p{
+    font-size: 19px;
+}
+.specific{
+    padding: 18px;
+}
+.specific h2{
+    font-size: 30px;
+    color: #13b960;
+}
+.specific-obj{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.objetivos-especificos{
+    font-size: 19px;
+    margin: 10px;
+}
+.lupa{
+    height: 140px;
+    margin-left: 20px;
+}
+#acc{
+    background-color: #EFF3F4;
+}
+.cosas{
+    display: flex;
+}
+.img-acciones0 img{
+  height: 120px;
+  margin-left: 20px;
+}
+.img-acciones{
+    padding: 5px;
+    
+}
+.img-acciones img{
+    height: 120px;
+    width: 120px;
+    margin: 5px;
+}
+.lasacciones p{
+    font-size: 19px;
+    margin-left: 190px; 
+}
+.valores{
+    padding: 18px;
+    margin-top: 15px;
+    background-color: #EFF3F4;
+}
+.valores h2{
+    font-size: 30px;
+}
+.valores h2 span{
+    color: #107cf2;
+}
+.val{
+    display: flex;
+   margin: 30px;
+   text-align: center;
+}
+.v1{
+    margin-right: 15px;
+    margin-top: 15px;
+    border: 2px solid #107cf2;
+    padding: 7px;
+    height: 270px;
+    border-radius: 4px;
+}
+.v2{
+    margin: 15px;
+    border: 2px solid #13b960;
+    padding: 7px;
+    border-radius: 4px;
+}
+.content-3 h2{
+    font-size: 30px;
+    padding: 18px;
+}
+.content-3 h2 span{
+    color: #13b960;
+}
+.content-3 p{
+    font-size: 19px;
+    padding: 19px;
+}
+.mensajes p{
+    font-size: 19px;
+    margin-left: 15px;
+}
+#footer{
+    background-color: #EFF3F4;
+    margin-top: 15px;
+}
+.cosas2{
+    display: flex;
+    padding: 18px;
+}
+.form{
+    margin-left: 100px;
+}
+.form h2{
+    font-size: 25px;
+    margin-left: 5px;
+}
+.form input{
+    margin-left: 20px;
+    width: 100%;
+    background-color: #EFF3F4;
+    border: 1px solid #13b960;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 6px;
+}
+#boton{
+    background-color: #107cf2;
+    border: 1px solid black;
+}
+#boton:hover{
+    background-color: #38b6ff;
+}
+.contact{
+    margin-left: 130px;
+}
+.footer-logo small{
+    font-size: 10px;
+}
+.red-social a{
+    color: #13b960;
+    margin: 10px;
+    height: 30px;
+}
+.red-social a:hover{
+    color: #7ed957;
+}
+#planteamiento{
+    background-color: #EFF3F4;
+}
+.content-3 i{
+    color: #13b960;
+}
+.gallery{
+    display: flex;
+}
+.gallery img{
+    height: 170px;
+    margin: 10px;
+}
+.gallery2{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    margin-left: 1px;
+}
+.gallery2 img{
+    height: 300px;
+}
+#hipotesis{
+    background-color: #EFF3F4;
+    margin-top: 20px;
+    padding: 18px;
+}
+#marcoteorico{
+    display: flex;
+    padding: 18px;
+}
+.content-4{
+    display: flex;
+}
+.content-4 img{
+    height: 300px;
+}
+#information{
+    padding: 18px;
+    font-size: 19px;
+    margin-top: 20px;
+}
+#information span{
+    color: #107cf2;
+}
+.cosas p{
+    margin-left: 30px;
+}
+.gallery3{
+    height: 150px;
+    margin: 10px;
+}
+.gallery3 img{
+    height: 100%;
+    width: 330px;
+}
+#information2{
+    background-color: #EFF3F4;
+    padding: 18px;
+    margin-top: 25px;
+}
+.content-5 h2{
+    font-size: 30px;
+}
+.content-5 h2 span{
+    color: #13b960;
+}
+.content-5 p{
+    font-size: 19px;
+}
+.content-5 img{
+    margin: 10px;
+    margin-left: 110px;
+}
+#information3{
+    margin-top: 10px;
+}
+.grafica2 img{
+    height: 690px;
+    width: 1024px;
+}
+#information4{
+    padding: 18px;
+    margin-top: 20px;
+}
+#biblio{
+    padding: 18px;
+}
+#biblio h1 span{
+    color: #13b960;
+}
+#biblio p{
+    font-size: 19px;
+}
+#biblio a{
+    color: #107cf2;
+}
+#biblio a:hover{
+    color: #38b6ff;
+}
+#metodologia{
+    padding: 18px;
+}
+#metodologia h4 b{
+    font-size: 22px;
+}
+#metodologia p{
+    font-size: 19px;
+}
+#metodologia img{
+    height: 370px;
+    margin-left: 150px;
+    margin-top: -5px;
+}
+#recursos{
+    padding: 18px;
+}
+#recursos p{
+    font-size: 19px;
+}
+#recursos h2{
+    font-size: 30px;
+}
+.materiales {
+    margin-top: 10px;
+}
+.humano{
+    margin-top: 10px;
+    
+}
+.materiales h3{
+    color: #13b960;
+    font-size: 21px;
+}
+.humano h3{
+    color: #107cf2;
+    font-size: 21px;
+}
